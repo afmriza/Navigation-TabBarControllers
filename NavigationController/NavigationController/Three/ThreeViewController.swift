@@ -31,7 +31,7 @@ class ThreeViewController: UIViewController {
         }
         // Update the badge value
         tabBarItem.badgeValue = text.count > 0 ? text : nil
-        
+        navigationController?.tabBarItem.badgeValue = text.count > 0 ? text : nil
         // Clear the text
         textfield.text = nil
         
