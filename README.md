@@ -1,10 +1,10 @@
 # Navigation-TabBarControllers
 - application has six tabs in total.
 - Tabs (1, 2, 3) each contain their own navigation controller.
- ##Tab One
+## Tab One
 - Contains a textfield where the user can add any topic they wish to search for o A button will ‘save’ this topic to the Tab Two data
 - Saving will also clear the textfield
- ##Tab Two
+## Tab Two
 - Displays list items the user ‘saved’ from Tab One
 - Items are displayed in a table view
 - Each cell will has a disclose indicator.
